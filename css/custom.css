@@ -1,3 +1,19 @@
+/* nav-bar */
 .navbar-collapse{
+    justify-content:flex-end;
+}
+
+/* banner */
+.jumbotron{
+    background-image: url(../images/02-hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .lead{
+    background: transparent;
+    text-align: right;
+    background-color: rgba(164, 179, 32, 0.712);
     justify-content:flex-end;
 }

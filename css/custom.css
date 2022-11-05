@@ -20,6 +20,10 @@
 }
 
  /* main */
+h2{
+    text-align: center;
+}
+
 .container-fluid{
     margin-bottom: 2rem;
 }

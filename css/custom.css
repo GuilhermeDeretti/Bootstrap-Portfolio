@@ -20,7 +20,9 @@
 }
 
  /* main */
-
+.container-fluid{
+    margin-bottom: 2rem;
+}
  /* work   */
  .card{
     margin-top: 1.5rem;
@@ -32,7 +34,9 @@
  }
 
  /* skills */
-
+.list-group-item{
+    text-align: center;
+}
  /* about/contact  */
 
  /* footer  */

@@ -1,3 +1,4 @@
+/* header */
 /* nav-bar */
 .navbar-collapse{
     justify-content:flex-end;
@@ -17,3 +18,21 @@
     background-color: rgba(164, 179, 32, 0.712);
     justify-content:flex-end;
 }
+
+ /* main */
+
+ /* work   */
+ .card{
+    margin-top: 1.5rem;
+ }
+
+ .card-img{
+    max-height: 25rem;
+    object-fit: cover;
+ }
+
+ /* skills */
+
+ /* about/contact  */
+
+ /* footer  */

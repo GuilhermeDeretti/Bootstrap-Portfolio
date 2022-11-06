@@ -1,55 +1,87 @@
+body {
+    background-color: #dee2e6;
+}
+
 /* header */
 /* nav-bar */
-.navbar-collapse{
-    justify-content:flex-end;
+.navbar-collapse {
+    justify-content: flex-end;
 }
 
 /* banner */
-.jumbotron{
+.jumbotron {
     background-image: url(../images/hero.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.jumbotron .rounded-circle{
+
+.jumbotron .rounded-circle {
     max-width: 15em;
     max-height: 15em;
+    border: solid 4px;
+    border-color: rgb(207, 92, 54);
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     text-align: center;
     background-color: rgba(5, 5, 1, 0.7);
-    justify-content:flex-end;
+    justify-content: flex-end;
     color: rgb(207, 92, 54);
     margin-top: 5px;
 }
 
- /* main */
-h2{
+/* main */
+h2 {
     text-align: center;
 }
 
-.container-fluid{
-    margin-bottom: 2rem;
+.container-fluid {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
- /* work   */
- .card{
-    margin-top: 1.5rem;
- }
 
- .card-img{
+/* work   */
+.card {
+    margin-top: 1.5rem;
+}
+
+.card-img {
     max-height: 25rem;
     object-fit: cover;
- }
+}
 
- .card-img-overlay{
+.card-img-overlay {
     background-color: rgba(5, 5, 1, 0.7);
- }
+}
 
- /* skills */
-.list-group-item{
+.btn {
+    border-color: rgb(207, 92, 54);
+    background-color: rgb(207, 92, 54);
+}
+.btn:hover {
+    color: rgb(207, 92, 54);
+    border-color: rgba(5, 5, 1, 0.7);
+    background-color: rgba(5, 5, 1, 0.7);
+}
+
+
+/* skills */
+.list-group-item {
     text-align: center;
 }
- /* about/contact  */
 
- /* footer  */
+/* about/contact  */
+
+/* footer  */
+
+nav a,
+footer a {
+    color: #dee2e6;
+    text-decoration: none;
+}
+nav a:hover,
+footer a:hover {
+    color: rgb(207, 92, 54);
+    text-decoration: none;
+}

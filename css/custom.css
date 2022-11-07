@@ -1,55 +1,100 @@
+body {
+  background-color: #dee2e6;
+}
+
 /* header */
 /* nav-bar */
-.navbar-collapse{
-    justify-content:flex-end;
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-brand {
+  color: rgb(207, 92, 54);
+  margin-bottom: 0;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  font-size: 1.25rem;
 }
 
 /* banner */
-.jumbotron{
-    background-image: url(../images/hero.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.jumbotron .rounded-circle{
-    max-width: 15em;
-    max-height: 15em;
+.jumbotron {
+  background-image: url(../images/hero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.jumbotron h1{
-    text-align: center;
-    background-color: rgba(5, 5, 1, 0.7);
-    justify-content:flex-end;
-    color: rgb(207, 92, 54);
-    margin-top: 5px;
+.jumbotron .rounded-circle {
+  max-width: 15em;
+  max-height: 15em;
+  border: solid 4px;
+  border-color: rgb(207, 92, 54);
 }
 
- /* main */
-h2{
-    text-align: center;
+.jumbotron h1 {
+  text-align: center;
+  background-color: rgba(5, 5, 1, 0.7);
+  justify-content: flex-end;
+  color: rgb(207, 92, 54);
+  margin-top: 5px;
 }
 
-.container-fluid{
-    margin-bottom: 2rem;
+/* main */
+h2 {
+  text-align: center;
 }
- /* work   */
- .card{
-    margin-top: 1.5rem;
- }
 
- .card-img{
-    max-height: 25rem;
-    object-fit: cover;
- }
-
- .card-img-overlay{
-    background-color: rgba(5, 5, 1, 0.7);
- }
-
- /* skills */
-.list-group-item{
-    text-align: center;
+.container-fluid {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
- /* about/contact  */
 
- /* footer  */
+/* work   */
+.card {
+  margin-top: 1.5rem;
+  border: solid 4px;
+  border-color: rgb(207, 92, 54);
+}
+
+.card-img {
+  max-height: 25rem;
+  object-fit: cover;
+}
+
+.card-img-overlay {
+  background-color: rgba(5, 5, 1, 0.7);
+}
+
+.btn {
+  border-color: rgb(207, 92, 54);
+  background-color: rgb(207, 92, 54);
+}
+
+.btn:hover {
+  color: rgb(207, 92, 54);
+  border-color: rgba(5, 5, 1, 0.7);
+  background-color: rgba(5, 5, 1, 0.7);
+  box-shadow: 0px 0px 7px 4px rgb(207, 92, 54);
+}
+
+
+/* skills */
+.list-group-item {
+  text-align: center;
+}
+
+/* about/contact  */
+
+/* footer  */
+/* specificity not to use !important */
+header .navbar-dark .navbar-nav .nav-link,
+footer a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+
+header .navbar-dark .navbar-nav .nav-link:hover,
+footer a:hover {
+  color: rgb(207, 92, 54);
+  text-decoration: none;
+}

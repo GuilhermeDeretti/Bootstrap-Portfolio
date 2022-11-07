@@ -1,87 +1,100 @@
 body {
-    background-color: #dee2e6;
+  background-color: #dee2e6;
 }
 
 /* header */
 /* nav-bar */
 .navbar-collapse {
-    justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.nav-brand {
+  color: rgb(207, 92, 54);
+  margin-bottom: 0;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  font-size: 1.25rem;
 }
 
 /* banner */
 .jumbotron {
-    background-image: url(../images/hero.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../images/hero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron .rounded-circle {
-    max-width: 15em;
-    max-height: 15em;
-    border: solid 4px;
-    border-color: rgb(207, 92, 54);
+  max-width: 15em;
+  max-height: 15em;
+  border: solid 4px;
+  border-color: rgb(207, 92, 54);
 }
 
 .jumbotron h1 {
-    text-align: center;
-    background-color: rgba(5, 5, 1, 0.7);
-    justify-content: flex-end;
-    color: rgb(207, 92, 54);
-    margin-top: 5px;
+  text-align: center;
+  background-color: rgba(5, 5, 1, 0.7);
+  justify-content: flex-end;
+  color: rgb(207, 92, 54);
+  margin-top: 5px;
 }
 
 /* main */
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .container-fluid {
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 /* work   */
 .card {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
+  border: solid 4px;
+  border-color: rgb(207, 92, 54);
 }
 
 .card-img {
-    max-height: 25rem;
-    object-fit: cover;
+  max-height: 25rem;
+  object-fit: cover;
 }
 
 .card-img-overlay {
-    background-color: rgba(5, 5, 1, 0.7);
+  background-color: rgba(5, 5, 1, 0.7);
 }
 
 .btn {
-    border-color: rgb(207, 92, 54);
-    background-color: rgb(207, 92, 54);
+  border-color: rgb(207, 92, 54);
+  background-color: rgb(207, 92, 54);
 }
+
 .btn:hover {
-    color: rgb(207, 92, 54);
-    border-color: rgba(5, 5, 1, 0.7);
-    background-color: rgba(5, 5, 1, 0.7);
+  color: rgb(207, 92, 54);
+  border-color: rgba(5, 5, 1, 0.7);
+  background-color: rgba(5, 5, 1, 0.7);
+  box-shadow: 0px 0px 7px 4px rgb(207, 92, 54);
 }
 
 
 /* skills */
 .list-group-item {
-    text-align: center;
+  text-align: center;
 }
 
 /* about/contact  */
 
 /* footer  */
-
-nav a,
+/* specificity not to use !important */
+header .navbar-dark .navbar-nav .nav-link,
 footer a {
-    color: #dee2e6;
-    text-decoration: none;
+  color: #dee2e6;
+  text-decoration: none;
 }
-nav a:hover,
+
+header .navbar-dark .navbar-nav .nav-link:hover,
 footer a:hover {
-    color: rgb(207, 92, 54);
-    text-decoration: none;
+  color: rgb(207, 92, 54);
+  text-decoration: none;
 }

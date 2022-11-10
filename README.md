@@ -3,7 +3,7 @@
 ## Description
 
 This website was created with the objective of having a professional portfolio as for my carrer in web development to show the projects i've done and participate to future employers.
-Different from my last portfolio project with plain CSS an HTML, in this one we apply Bootstrap, a way to build our website with documented modules which fasten the process. Reading the documentation to understend how it works might spend some time, but after done, makes new projects ezier to prebuild.
+Different from my last portfolio project with plain CSS an HTML, in this one we apply Bootstrap, a way to build our website with documented modules which fasten the process. Reading the documentation to understend how it works might spend some time, but after done, makes new projects easier to prebuild.
 
 **Note:** This project is still under development and will receive updates from time to time, including addition of new projects to showcase.
 
